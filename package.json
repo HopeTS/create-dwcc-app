@@ -1,0 +1,30 @@
+{
+  "name": "create-dwcc-app",
+  "version": "1.0.0",
+  "description": "CLI tool to create a starting boilerplate for the DWCC AI software development method",
+  "main": "index.js",
+  "bin": {
+    "create-dwcc-app": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ai",
+    "devs",
+    "who",
+    "can't",
+    "code",
+    "llm",
+    "chatgpt",
+    "openai",
+    "nodejs",
+    "api",
+    "cli"
+  ],
+  "author": "HopeTS",
+  "license": "ISC",
+  "dependencies": {
+    "degit": "^2.8.4"
+  }
+}
