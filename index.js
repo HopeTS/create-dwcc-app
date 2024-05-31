@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-const REPO = "HopeTS/devs-who-cant-code-starter";
-
 const { execSync } = require("child_process");
 const degit = require("degit");
 const path = require("path");
@@ -14,7 +12,7 @@ if (!appName) {
   process.exit(1);
 }
 
-const repo = "yourusername/dwcc-app-template";
+const repo = "HopeTS/devs-who-cant-code-starter#main";
 const emitter = degit(repo, {
   cache: false,
   force: true,

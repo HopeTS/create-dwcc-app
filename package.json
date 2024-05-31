@@ -1,6 +1,6 @@
 {
   "name": "create-dwcc-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool to create a starting boilerplate for the DWCC AI software development method",
   "main": "index.js",
   "bin": {
